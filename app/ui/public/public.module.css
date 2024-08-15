@@ -1,0 +1,44 @@
+/* public.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color:var(--bg);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.content {
+   background-color: var(--bgSec);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.content p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+
+.navigateButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.navigateButton:hover {
+    background-color:  rgb(7, 83, 83);;;
+}

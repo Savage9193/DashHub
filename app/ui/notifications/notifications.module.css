@@ -1,0 +1,153 @@
+/* .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color:var(--bg);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 300px;
+    border-left: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.notificationWindow {
+    flex: 1;
+    overflow-y: auto;
+    background-color:(var(--bgSec));
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notification {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.inputArea {
+    display: flex;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color:(var(--bgSec));
+    color: white;
+}
+
+.addButton, .clearButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.addButton {
+    background-color: teal;
+    color: white;
+}
+
+.addButton:hover {
+    background-color: rgb(7, 83, 83);;
+}
+
+.clearButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.clearButton:hover {
+    background-color: darkred;
+} */
+
+
+/* notifications.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color:var(--bg);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.notificationWindow {
+    flex: 1;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--bgSec);
+}
+
+.notification {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.inputArea {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.addButton, .clearButton, .navigateButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.addButton {
+    background-color:teal;
+    color: white;
+}
+
+.addButton:hover {
+    background-color: rgb(7, 83, 83);
+}
+
+.clearButton {
+    background-color: #f44336;
+    color: white;
+}
+
+.clearButton:hover {
+    background-color: #d32f2f;
+}
+
+.navigateButton {
+    background-color: teal;
+    color: white;
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Align with button */
+}
+
+.navigateButton:hover {
+    background-color:rgb(7, 83, 83);
+}

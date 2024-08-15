@@ -1,0 +1,69 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px;
+    background-color:var(--bg);
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.chatWindow {
+    flex: 1;
+    overflow-y: auto;
+    background-color:var(--bgSec);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.message {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.inputArea {
+    display: flex;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sendButton, .clearButton, .navigateButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--button-text-color); /* Use button text color variable */
+    margin-left: 10px;
+}
+
+.sendButton {
+    background-color:teal;
+}
+
+.sendButton:hover {
+    background-color: rgb(7, 83, 83);;
+}
+
+.clearButton {
+    background-color: red;
+}
+
+.clearButton:hover {
+    background-color: darkred;
+}
+.navigateButton{
+    background-color: teal;
+}
+.navigateButton:hover {
+    background-color: rgb(7, 83, 83);;
+}
