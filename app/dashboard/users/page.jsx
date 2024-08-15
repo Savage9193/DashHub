@@ -29,14 +29,15 @@ const UserPage = async() => {
           </thead>
           <tbody>
             {users.map(user => (
-             <tr>
+             <tr key={user.id}>
               <td>
                 <div className={styles.user}>
-                  <Image src="/avatar.png"
+                  <Image src="/avatar.png" alt="err"
                   width={40}
                   height={40}
                   className={styles.userImage}/>
                   {user.username}
+                  a
                 </div>
 
               </td>

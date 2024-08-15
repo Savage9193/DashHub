@@ -30,7 +30,7 @@ const ProductPage = async() => {
         <tbody>
           {products.map((product) => (
        
-          <tr>
+          <tr key={product.id}>
             <td>
               <div className={styles.product}>
               <Image src="/avatar.png" height={40} width={40}/>
