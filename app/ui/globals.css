@@ -1,4 +1,5 @@
-/* @import url('https://fonts.gstatic.com/s/montserratsubrayada/v19/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TfMRiXk.woff2');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+
 
 :root{
     --bg:#2c2c2c;
@@ -11,7 +12,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat Subrayada', sans-serif;
+    /* font-family: 'Montserrat Subrayada'; */
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -24,39 +26,4 @@ body{
 a{
     color: inherit;
     text-decoration: none;
-} */
-
-
-
-@font-face {
-    font-family: 'Montserrat Subrayada';
-    src: url('https://fonts.gstatic.com/s/montserratsubrayada/v19/U9MM6c-o9H7PgjlTHThBnNHGVUORwteQQHe3TfMRiXk.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  :root {
-      --bg: #2c2c2c;
-      --bgSec: #4c4c4c;
-      --text: white;
-      --textSec: rgb(225,225,225);
-  }
-  
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Montserrat Subrayada', sans-serif;
-  }
-  
-  body {
-      background-color: var(--bg);
-      color: var(--text);
-      overflow-x: hidden;
-  }
-  
-  a {
-      color: inherit;
-      text-decoration: none;
-  }
-  
+}
