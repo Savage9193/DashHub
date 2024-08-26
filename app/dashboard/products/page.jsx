@@ -8,7 +8,6 @@ const ProductPage = async() => {
 
   const products = await fetchProducts();
 
-  console.log(products)
   return (
     <div className={styles.container}>
       <div className={styles.top}>

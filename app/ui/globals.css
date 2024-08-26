@@ -12,12 +12,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat Subrayada', sans-serif;
+    
 }
+
 
 body{
     background-color: var(--bg);
     color: var(--text);
-}
+    overflow-x: hidden;}
 
 a{
     color: inherit;
