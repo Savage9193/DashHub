@@ -32,7 +32,7 @@ const ProductPage = async() => {
           <tr key={product.id}>
             <td>
               <div className={styles.product}>
-              <Image src="/avatar.png" height={40} width={40}/>
+              <Image src="/avatar.png" height={40} width={40} alt="jj"/>
              {product.title}
               </div>
             </td>
